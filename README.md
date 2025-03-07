@@ -1,12 +1,12 @@
-# 📊 Financial Transactions SQL Analysis
+ 📊 Financial Transactions SQL Analysis
 
-## 📝 Project Overview
+ 📝 Project Overview
 This project analyzes financial transactions using SQL. The dataset 
 contains records of transactions, including transaction types, amounts, 
 and customer IDs. The goal is to extract insights from the data, such as 
 transaction trends, customer spending behavior, and risk assessments.
 
-## 📂 Dataset Information
+ 📂 Dataset Information
 - **File Name:** `financial_transactions.db`
 - **Size:** ~3MB
 - **Columns:**
@@ -17,7 +17,7 @@ transaction trends, customer spending behavior, and risk assessments.
   - `type` - Credit/Debit
   - `description` - Additional details
 
-## 🔍 SQL Queries Included
+ 🔍 SQL Queries Included
 Here are some of the key queries used in this project:
 
 ```sql
@@ -36,20 +36,13 @@ SELECT type, COUNT(*) AS total_transactions FROM transactions GROUP BY
 type;
 
 How to Run This Project
-Clone this repository:
-sh
-Copy
-Edit
+Clone this repository:t
 git clone https://github.com/kathie-data/financial-transactions-sql.git
-Open SQLite and load the database:
-sh
-Copy
-Edit
+
+Open SQLite and load the database:t
 sqlite3 financial_transactions.db
+
 Run queries inside SQLite:
-sql
-Copy
-Edit
 SELECT * FROM transactions LIMIT 5;
 📌 Next Steps
 🛠️ Extend analysis with more SQL queries.
@@ -58,5 +51,4 @@ SELECT * FROM transactions LIMIT 5;
 📬 Contact
 💼 GitHub: kathie-data
 📧 Email: kately7@icloud.com
-🔗 LinkedIn:linkedin.com/in/katherine-ponce-6616441b3# 
-Financial Transactions SQL Analysis
+🔗 LinkedIn: linkedin.com/in/katherine-ponce-6616441b3

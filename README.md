@@ -44,11 +44,11 @@ sqlite3 financial_transactions.db
 
 Run queries inside SQLite:
 SELECT * FROM transactions LIMIT 5;
+
 📌 Next Steps
 🛠️ Extend analysis with more SQL queries.
 📊 Visualize insights using Power BI or Python.
 🔗 Connect to a larger financial dataset.
 📬 Contact
 💼 GitHub: kathie-data
-📧 Email: kately7@icloud.com
 🔗 LinkedIn: linkedin.com/in/katherine-ponce-6616441b3
